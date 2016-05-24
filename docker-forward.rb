@@ -2,7 +2,7 @@ class DockerForward < Formula
   desc "Listens to docker-machine and creates ssh tunnels for all ports"
   homepage "https://github.com/vultron81/docker-forward"
   url "https://github.com/vultron81/docker-forward/archive/v1.2.tar.gz"
-  sha256 "d3374e038cf46332889e980c71351db7a8e2fa002349e7ac4d1aefb6510deee4"
+  sha256 "7c91686409228728e3c31568e0745eb26e378b71b5932a8b24796070d2c9ee09"
   depends_on :python if MacOS.version <= :snow_leopard
 
   resource "pythondaemon" do
